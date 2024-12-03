@@ -1,0 +1,143 @@
+/* UNIVERSAL STYLE RULES */
+
+body {
+    background-image: url(images/tree.png);
+    background-repeat: no-repeat;
+    background-size: 190px;
+    background-position: 95% 1%;
+    background-color:#f2f2f2
+}
+
+main {
+    background-image: url(images/pumpkin.png);
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: 1% 99%;
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+/* LINKS STYLING */
+
+a:link {
+    color: black
+}
+
+a:visited {
+    color: indigo
+}
+
+a:active {
+    text-decoration: overline;
+}
+
+a:hover {
+    color: #ffa7e6
+}
+
+/* HOME PAGE */
+
+#fall-picks {
+    display: flex;
+    padding-right: 2%;
+}
+
+#books {
+    width: 54%;
+}
+
+#songs {
+    width: 23%;
+}
+
+#vibes{
+    width: 23%;
+}
+
+#book-imgs {
+    padding-left: 5%;
+}
+
+.text-intro {
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
+
+.h3 {
+    font-size:20px;
+}
+
+/* FALL BUCKETLIST */
+
+#bucketlist {
+    display: flex;
+}
+
+.movie-note {
+    display: flex;
+    justify-content: center;
+    flex-basis: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#WHMS-text {
+    padding-left: 1%;
+    width: 150px;
+    font-size: smaller;
+}
+
+/* MINI MEAL MANUAL */
+
+#restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#card {
+    background-color: white;
+    font-size: medium;
+    color: white;
+}
+
+#card:active {
+    background-color: #000000;
+}
+
+.restaurant {
+    width: 355px;
+}
+
+#bottom-row1 {
+    padding-left: 10%;
+}
+
+#bottom-row2 {
+    padding-right: 10%;
+}
+
+span {
+    color: red;
+}
+
+#btw {
+    font-size: smaller;
+    padding-top: 2%;
+    padding-left: 15%;
+    padding-right: 5%;
+}
